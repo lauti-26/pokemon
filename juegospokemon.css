@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+    gap: 6px;
+    padding: 10px;
+
+}
+.limitador {
+    width: 90vw;
+    margin: 0 auto;
+    
+}
+
+.link {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    color: rgb(73, 71, 71);
+    text-decoration: none;
+    transition: all 1s;  
+}
+
+span {
+    text-decoration: underline;
+    
+}
+
+.inicio2 {
+    text-decoration: underline rgb(255, 49, 49);
+}
+
+.juegos2 {
+    text-decoration: underline rgb(255, 91, 31);
+}
+
+.animes2 {
+    text-decoration: underline green;
+}
+.caras{width: 350px;
+    border-radius: 20px;
+    transition: all 1s;}
+
+.cartas2 {
+    text-decoration: underline green;
+}
+
+.pokedex2 {
+    text-decoration: underline rgb(93, 204, 255);
+}
+
+.noticias2 {
+    text-decoration: underline rgb(34, 34, 255);
+}
+
+.Inicio:hover {
+    background-color: rgb(255, 49, 49);
+    color: white;
+    padding: 3px
+}
+
+.Juegos:hover {
+    background-color: rgb(255, 91, 31);
+    color: white;
+    padding: 3px;
+}
+
+.db:hover {
+    background-color: green;
+    color: white;
+    padding: 3px;
+}
+
+.cartas:hover {
+    background-color: green;
+    color: white;
+    padding: 3px;
+}
+
+.Pokedex:hover {
+    background-color: rgb(93, 204, 255);
+    color: white;
+}
+
+.Noticias:hover {
+    background-color: rgb(34, 34, 255);
+    color: white;
+    padding: 3px;
+}
+
+footer {
+    padding: 0;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    
+}
+
+.aa {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.footermenu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+.divfooter{display: flex;
+    flex-direction: column;
+    gap: 20px;padding: 10px;
+margin: 0 12vw; font-size: 25px;padding: 30px;}
+footer{background-color: rgb(56, 54, 54);}
+
+.limitador {
+    
+    width: 90vw;
+    margin: 0 auto;
+    
+}
+
+
+
+
+.imgtarjetas{width:90%;
+    border-radius: 20px;
+    border: solid 3px;}
+
+
+
+
+.tarjetas {
+    text-align: justify;
+    justify-content: center;
+    width: 90vw;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: auto;
+    line-height: 2;
+    padding: 30px;
+}
+
+.caras{width: 350px;
+    border-radius: 20px;
+    transition: all 1s;
+    height: 590px;
+
+}
+
+    .projo{background-color: rgb(226, 133, 70);}
+    .pplata{background-color: rgb(184, 181, 181);}
+    .pesmeralda{background-color: rgb(77, 161, 77);}
+    .platino{background-color: rgb(117, 112, 112);}
+    .blanco2{background-color: rgb(125, 196, 196);}
+    .x{background-color: rgb(110, 110, 255);}
+    .sol{background-color: rgb(247, 190, 36);}
+    .Rubi{background-color: rgb(134, 44, 44);}
+    section{background-image: url(fnd.jpg);margin-top: 50px;}
+    body{background-color: rgb(56, 54, 54);}
+    header{background-color: white;}
+
+    h2 {
+    font-size: 30px;
+    font-family:'Pokemon Hollow' ;gap: 10px;
+}
+
+
+@font-face{
+    font-family: 'Pokemon Solid';
+    src: url(/fuentes/Pokemon\ Solid.ttf);
+    font-weight:'Pokemon Solid' ;
+    font-style: 'Pokemon Solid';
+}
+
+@font-face{
+    font-family: 'Pokemon Hollow';
+    src: url(/fuentes/Pokemon\ Hollow.ttf);
+    font-weight:'Pokemon Hollow' ;
+    font-style: 'Pokemon Hollow';
+}
+
+h3{font-family: 'Pokemon Hollow';;font-size: 33px;font-weight: 20px;gap: 1px;}
+   
+
+
+
+
+
+
+
+
+
+.projo:hover{background-color: rgb(224, 112, 38);transform: scale(0.9);}
+.pplata:hover{background-color: rgb(122, 122, 122);transform: scale(0.9);}
+.pesmeralda:hover{background-color: rgb(54, 112, 54);transform: scale(0.9);}
+.platino:hover{background-color: rgb(70, 67, 67);transform: scale(0.9)}
+.blanco2:hover{background-color: rgb(80, 124, 124);transform: scale(0.9)}
+.x:hover{background-color: rgb(68, 68, 255);transform: scale(0.9)}
+.sol:hover{background-color: rgb(241, 137, 38);transform: scale(0.9)}
+.Rubi:hover{background-color: rgb(196, 66, 66);transform: scale(0.9)}
+figure{padding: 5px;}
+
+.juegosh1{text-align: center;padding: 0px;;font-family: 'Pokemon Hollow';gap: 5px;font-weight: 20px;gap: 10px;font-size: 50px;
+;color: #daaa0d;}
+

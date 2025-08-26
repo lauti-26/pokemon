@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="menuadaptable.css">
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" id="activarmenu">
+        <label for="activarmenu"><i class="fa-solid fa-bars"></i></label>
+        <nav class="menu">
+            <ul>
+                <li class="menuitem"><a href="#inicio">Inicio</a></li>
+                <li class="menuitem"><a href="#productos">Productos</a></li>
+                <li class="menuitem"><a href="#servicios">Servicios</a></li>
+                <li class="menuitem"><a href="#acercade">Acerca de</a></li>
+                <li class="menuitem"><a href="#contactar">Contactar</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="inicio" class="claro">
+            <h2>Inicio</h2>
+        </section>
+        <section id="productos" class="rojo">
+            <h2>Productos</h2>
+        </section>
+        <section id="servicios" class="claro">
+            <h2>Servicios</h2>
+        </section>
+        <section id="acercade" class="rojo">
+            <h2>Acerca de</h2>
+        </section>
+        <section id="contactar" class="claro">
+            <h2>Contactar</h2>
+        </section>
+    </main>
+    <footer>
+        <p>Derechos Reservados</p>
+    </footer>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+            const checking = document.querySelector("#activarmenu");
+            const menuitem = document.querySelectorAll(".menuitem");
+
+            menuitem.forEach(function (item) {
+                item.addEventListener('click', function () {
+
+                    checking.checked = false; // Desmarca el checkbox 
+
+
+                });
+            });
+
+        });
+
+
+
+    </script>
+</body>
+
+</html>

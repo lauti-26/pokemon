@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+    gap: 6px;
+    padding: 10px;
+
+}
+
+
+.link {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    color: rgb(73, 71, 71);
+    text-decoration: none;
+    transition: all 1s;  
+}
+
+span {
+    text-decoration: underline;
+    
+}
+
+.inicio2 {
+    text-decoration: underline rgb(255, 49, 49);
+}
+
+.juegos2 {
+    text-decoration: underline rgb(255, 91, 31);
+}
+
+.animes2 {
+    text-decoration: underline green;
+}
+.caras{width: 350px;
+    border-radius: 20px;
+    transition: all 1s;}
+
+.cartas2 {
+    text-decoration: underline green;
+}
+
+.pokedex2 {
+    text-decoration: underline rgb(93, 204, 255);
+}
+
+.noticias2 {
+    text-decoration: underline rgb(34, 34, 255);
+}
+
+.Inicio:hover {
+    background-color: rgb(255, 49, 49);
+    color: white;
+    padding: 3px
+}
+
+.Juegos:hover {
+    background-color: rgb(255, 91, 31);
+    color: white;
+    padding: 3px;
+}
+
+.db:hover {
+    background-color: green;
+    color: white;
+    padding: 3px;
+}
+
+.cartas:hover {
+    background-color: green;
+    color: white;
+    padding: 3px;
+}
+
+.Pokedex:hover {
+    background-color: rgb(93, 204, 255);
+    color: white;
+}
+
+.Noticias:hover {
+    background-color: rgb(34, 34, 255);
+    color: white;
+    padding: 3px;
+}
+
+footer {
+    padding: 0;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    
+}
+
+.aa {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.footermenu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+.divfooter{display: flex;
+    flex-direction: column;
+    gap: 20px;padding: 10px;
+margin: 0 12vw; font-size: 25px;padding: 30px;}
+footer{background-color: rgb(56, 54, 54);}
+
+main{width: 80%;margin: 0 auto;}
+
+
+.tarjetas{
+    background-color: #daaa0d;
+}
+.aruno{display: flex;align-items: center;padding: 20px;gap: 10px;}
+.invertidados{display: flex;flex-direction: row-reverse;align-items: center;padding: 20px;gap: 10px;}
+
+p{font-size: 18px;;text-align: justify;line-height: 2;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-align: justify;padding: 15px;
+}
+
+h2{text-align: center;padding: 10px;font-family: 'Pokemon Hollow';gap: 5px;font-weight: 20px;gap: 1px;font-size: 30px;text-decoration: underline rgb(240, 205, 11);}
+h1{text-align: center;padding: 0px;;font-family: 'Pokemon Hollow';gap: 5px;font-weight: 20px;gap: 10px;font-size: 50px;
+;color: #daaa0d;}
+img{width: 550px;border-radius: 10px;border: 9px double ;color: #daaa0d;padding: 20px;gap: 10px;transition: all;}
+img:hover{transition: all 1s;transform: scale(0.9);}
+
+@font-face{
+    font-family: 'Pokemon Solid';
+    src: url(/fuentes/Pokemon\ Solid.ttf);
+    font-weight:'Pokemon Solid' ;
+    font-style: 'Pokemon Solid';
+}
+
+@font-face{
+    font-family: 'Pokemon Hollow';
+    src: url(/fuentes/Pokemon\ Hollow.ttf);
+    font-weight:'Pokemon Hollow' ;
+    font-style: 'Pokemon Hollow';
+}
+section{background-image: url(fnd.jpg);}
+body{background-color: rgb(56, 54, 54);}
+    header{background-color: white;}
+    
+
+button{text-decoration: underline yellow;border:none; font-size: 40px; font-family: Georgia, 'Times New Roman', Times, serif;border-radius: 8px;padding: 0px;display: block;margin: 0 auto;gap: 0px;font-family:'Pokemon Solid' ;width: 0px;font-weight: 20px;
+transition: all 1s;}
+button:hover{transition: all 1s;transform: scale(1.4);}
